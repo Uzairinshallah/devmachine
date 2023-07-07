@@ -22,6 +22,7 @@ class HomeTab extends StatelessWidget {
       height: 60.h,
       child: Stack(
         children: [
+
           Positioned(
             right: 10.w,
             bottom: 20.w,
@@ -32,6 +33,7 @@ class HomeTab extends StatelessWidget {
               child: ZoomAnimations(),
             ),
           ),
+
           Padding(
             padding: EdgeInsets.only(left: 10.w, top: 10.h),
             child: Column(

@@ -71,6 +71,7 @@ class HomeMobile extends StatelessWidget {
                   html.window.open(resume, "pdf");
                 },
               ),
+
               const EntranceFader(
                 offset: Offset(0, 0),
                 delay: Duration(seconds: 1),
